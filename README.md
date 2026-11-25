@@ -107,3 +107,32 @@ Generated output files and sensitive configuration files are excluded from Git t
 Git is used to track project changes through meaningful commits and feature branches.
 
 The feature branch `feature/quarantine-and-dedup` is used for isolated ETL development and is merged into `main` after testing.
+
+## 9. Git Workflow
+
+This project uses Git and GitHub for version control and collaborative development.
+
+### Branches
+
+- `main` – Contains the stable project implementation.
+- `feature/quarantine-and-dedup` – Used for quarantine output path improvements.
+- `feature/documentation-update` – Used for project documentation updates.
+
+### Commit History
+
+The project follows meaningful commit messages to track changes.
+
+Examples:
+- `feat:` – Add a new feature.
+- `fix:` – Fix an existing issue.
+- `docs:` – Update documentation.
+- `chore:` – Perform maintenance tasks.
+
+### Pull Request Workflow
+
+1. Create a feature branch from `main`.
+2. Make the required changes.
+3. Stage and commit the changes.
+4. Push the feature branch to GitHub.
+5. Create a Pull Request targeting `main`.
+6. Review and merge the Pull Request.
