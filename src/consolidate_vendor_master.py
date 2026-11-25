@@ -160,7 +160,7 @@ def read_configuration():
 def read_sql_file_paths():
 
     config = configparser.ConfigParser(interpolation=None)
-    config_file = BASE_DIR / "config" /"config.ini"
+    config_file = BASE_DIR / "config"/"config.ini"
 
     if not config.read(config_file):
         raise FileNotFoundError("config.ini file not found.")
@@ -502,7 +502,7 @@ def export_quarantine_to_csv(df_quarantine):
     """
 
     try:
-        csv_file_path = BASE_DIR / "quarantine_records.csv"
+        csv_file_path = BASE_DIR / "data" / "output" / "quarantine_records.csv"
 
         # Define columns that identify a quarantine record
         key_columns = [
