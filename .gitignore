@@ -1,0 +1,35 @@
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Sensitive configuration and credentials
+config/config.ini
+.env
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Runtime output files
+data/output/*.csv
+
+# Log files
+Logs/
+logs/
+*.log
+
+# IDE metadata
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
